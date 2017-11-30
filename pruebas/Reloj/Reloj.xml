@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<soc>
+<module type = 'clk'>
+	<frequency>50000000</frequency>
+</module>
+ <module type='cpu' >
+ </module>
+ <module type='gpio_0'>
+    <size>4</size>
+	<mode>input</mode>
+	<direction>80</direction>
+ </module>
+ <module type='gpio_3'>
+    <size>7</size>
+	<mode>output</mode>
+	<direction>73</direction>
+ </module>
+  <module type='gpio_4'>
+    <size>7</size>
+	<mode>output</mode>
+	<direction>74</direction>
+ </module>
+  <module type='gpio_5'>
+    <size>7</size>
+	<mode>output</mode>
+	<direction>75</direction>
+ </module>
+  <module type='gpio_6'>
+    <size>7</size>
+	<mode>output</mode>
+	<direction>76</direction>
+ </module>
+  <module type='gpio_7'>
+    <size>7</size>
+	<mode>output</mode>
+	<direction>77</direction>
+ </module>
+  <module type='gpio_8'>
+    <size>7</size>
+	<mode>output</mode>
+	<direction>78</direction>
+ </module>
+  <module type='gpio_9'>
+    <size>8</size>
+	<mode>output</mode>
+	<direction>79</direction>
+ </module>
+   <module type='gpio_10'>
+    <size>18</size>
+	<mode>output</mode>
+	<direction>69</direction>
+ </module>
+<module type='uart'>
+    <baudrate>19200</baudrate>
+    <direction>100</direction>
+</module>
+<module type='timer_0'>
+    <counter>32</counter>
+    <period>1</period>
+    <unit>ms</unit>
+    <editable>1</editable>
+    <direction>90</direction>
+</module>
+
+</soc>
+

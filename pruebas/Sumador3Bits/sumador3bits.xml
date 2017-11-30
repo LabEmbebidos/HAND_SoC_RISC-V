@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<soc>
+
+<module type = 'clk'>
+	<frequency>50000000</frequency>
+</module>
+
+ <module type='cpu' >
+ </module>
+
+ <module type='gpio_0'>
+    <size>3</size>
+	<mode>input</mode>
+	<direction>80</direction>
+ </module>
+
+  <module type='gpio_1'>
+    <size>3</size>
+  <mode>input</mode>
+  <direction>90</direction>
+ </module>
+ 
+ <module type='gpio_3'>
+    <size>7</size>
+	<mode>output</mode>
+	<direction>100</direction>
+ </module>
+
+</soc>
+
